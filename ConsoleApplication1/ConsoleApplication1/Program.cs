@@ -6,11 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("hello github");
+        }
+        public static bool IsOdd(int n)
+        {
+            return false;
         }
     }
 }
