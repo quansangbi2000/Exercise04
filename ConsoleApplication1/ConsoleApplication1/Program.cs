@@ -16,5 +16,9 @@ namespace ConsoleApplication1
         {
             return false;
         }
+        public static bool IsEven(int n)
+        {
+            return true;
+        }
     }
 }
