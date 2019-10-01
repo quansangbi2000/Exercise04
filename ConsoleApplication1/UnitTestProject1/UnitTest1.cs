@@ -23,5 +23,24 @@ namespace UnitTestProject1
             bool result04 = Program.IsEven(4);
             Assert.AreEqual(true, result04);
         }
+        [TestMethod]
+        public void TestCeil()
+        {
+            int result = Program.Ceil((float)2.3);
+            Assert.AreEqual(3, result);
+
+            int result2 = Program.Ceil(-2.3f);
+            Assert.AreEqual(-2, result2);
+        }
+
+        [TestMethod]
+        public void TestFloor()
+        {
+            int result1 = Program.Floor((float)2.3);
+            Assert.AreEqual(2, result1);
+
+            int result2 = Program.Floor(-2.3f);
+            Assert.AreEqual(-3, result2);
+        }
     }
 }
